@@ -11,6 +11,7 @@ public class AppiumExam {
 
     public static void main(String[] args) throws MalformedURLException {
 
+
         //Desired Capabilities, system platform
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
